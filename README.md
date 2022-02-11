@@ -28,3 +28,16 @@ tsc -w
 </code>
 
 esto mantiene un watcher para ir compilando en tiempo real
+
+<h1>Parte 2</h1>
+
+Ahora veremos variables en typescript
+
+es:
+
+<code>let nombre:tipo = valor;</code>
+
+
+y constantes
+
+<code>const NOMBRE:tipo = valor;</code>
