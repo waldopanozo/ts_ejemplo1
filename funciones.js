@@ -1,11 +1,11 @@
 "use strict";
-var message = "Hey, how's it going! Cool!";
+let message = "Hey, how's it going! Cool!";
 //let n:number = 4;
-var n = 4;
-var annnny;
+let n = 4;
+let annnny;
 annnny = "Hello";
 annnny = 24.34;
-var PI = 3.14;
+const PI = 3.14;
 function sayHello() {
     console.log(message);
     console.log(n);

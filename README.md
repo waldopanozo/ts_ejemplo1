@@ -41,3 +41,12 @@ es:
 y constantes
 
 <code>const NOMBRE:tipo = valor;</code>
+
+<h1>Parte 3</h1>
+
+Clases  y objetos
+
+
+como en java pero con lagunas variaciones en cuento a las declaraciones de funciones o metodos
+
+<code> class static public private etc. </code>
