@@ -64,3 +64,13 @@ se puede usar una interrogante al lado de una variable para decir que es opciona
 una interfaz es como un contrato que se debe respetar segun los parematros que requiere
 
 tambine se peuden declarar parmetros de tipo void y funciones como en el archivo interfaces.ts
+
+# Parte 5
+## **Generics**
+
+se peude trabajr con arreglos y definir parametros para el arreglo como tipos de datos
+
+es muy simple Array<tipo_de_dato>
+
+cunado se declara el tipo de dato no se puede asignar otro tipo de datos dentro del arreglo, y el acceso es similar a java arreglo[indice] 
+
