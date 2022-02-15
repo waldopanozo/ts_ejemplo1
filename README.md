@@ -147,3 +147,15 @@ o de una manera mas larga, pero el resultado es el mismo
     let sumaFlecha = (a:number, b:number) => {
         return a+b;
     }
+
+
+# Parte 8
+## **Decoradores en Typescript**
+
+es una caracteristica a es6 simpbolod de @ es necesairo
+
+es supper usado para angular
+
+el warning que sale es solo proq eu recien se aumetnara esta funcionalidad
+
+es mas para uso que para creacion en angular veremos eso
