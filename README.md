@@ -132,3 +132,30 @@ luego se inicia el server
     npm start
 
 con estas configuraciones ya deberia estar corriendo y puedes ver los resultados de los modulos.
+
+# Parte 7
+## **Funciones de flecha**
+
+son funciones muy similares a las estandar, solo es una posibilidad de realizar llamdas de este tipo
+
+de hecho se puede reducir mucho la creacion de fuciones ya que si el metodo es de solo una linea no se deben usar llaves etc.
+
+    let sumaFlecha = (a:number, b:number) => a + b;
+
+o de una manera mas larga, pero el resultado es el mismo
+
+    let sumaFlecha = (a:number, b:number) => {
+        return a+b;
+    }
+
+
+# Parte 8
+## **Decoradores en Typescript**
+
+es una caracteristica a es6 simpbolod de @ es necesairo
+
+es supper usado para angular
+
+el warning que sale es solo proq eu recien se aumetnara esta funcionalidad
+
+es mas para uso que para creacion en angular veremos eso
