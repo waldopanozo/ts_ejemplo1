@@ -1,52 +1,66 @@
-# ts_ejemplo1
-Empezando con typescript
+# Uso básico de typescript **(TS)**
+#### por: Waldo Panozo
+
+## Empezando con typescript
 ----
 
 Estoy trabajando con Ubuntu 20.04 entonces esto se hizo en la primera parte.
 
-<code>sudo apt install node-typescript</code>
+    sudo apt install node-typescript
 
-<h1>Parte 1</h1>
+# Parte 1
 
 para compilar manualmente un archivo ts a js
 
-<code>
-tsc funciones 
-</code>
+
+    tsc funciones 
+
 
 nos referimos al archivo funciones.ts
 este compila  a un arhivo js
 
-<code>
-tsc -init
-</code>
+
+    tsc -init
+
 
 esto inicializa un archivo tsconfig.json este lleva configuracion de la version de es5 por ejemplo.
 
-<code>
-tsc -w 
-</code>
+
+    tsc -w
 
 esto mantiene un watcher para ir compilando en tiempo real
 
-<h1>Parte 2</h1>
+# Parte 2
 
-Ahora veremos variables en typescript
+## **Ahora veremos variables en typescript**
 
 es:
 
-<code>let nombre:tipo = valor;</code>
+    let nombre:tipo = valor;
 
 
 y constantes
 
-<code>const NOMBRE:tipo = valor;</code>
+    const NOMBRE:tipo = valor;
 
-<h1>Parte 3</h1>
+# Parte 3
 
-Clases  y objetos
+## **Clases  y objetos**
 
 
 como en java pero con lagunas variaciones en cuento a las declaraciones de funciones o metodos
 
-<code> class static public private etc. </code>
+    class static public private etc.
+
+# Parte 4
+
+## **Interfaces**
+
+igualmente es parecido a java
+
+se puede usar una interrogante al lado de una variable para decir que es opcional.
+
+
+una interfaz es como un contrato que se debe respetar segun los parematros que requiere
+
+tambine se peuden declarar parmetros de tipo void y funciones como en el archivo interfaces.ts
